@@ -1,0 +1,36 @@
+Give the user the following options. Once the option that is selected is completed keep asking them until they hit 4 to quit:
+
+Hello, please choose one of following options:
+1) Check balance
+2) Add money to account
+3) Withdraw money from account
+4) Quit
+What will you like to do?
+
+# plain english (give user options to do stuff)
+# within a menu
+
+Check Balance (2.5 points)
+
+Check balance should show the current balance. Make sure a $ sign is in the sentence.
+
+Example: Your account has $200 dollars
+
+# what do i need?
+a BALANCE VARIBALE that can be manipulated to have money ADDED and SUBTRACTED
+
+Once this selection is chosen, ask the user how much money they want to deposit. Update their account, then print the updated balance.
+
+Example: How much would you like to deposit?
+
+Example: Your account now holds $205 dollars
+
+what do i need?
+ask user how much would they like to deposit (they give input)
+spits out a prompt with how much money they now have
+
+
+Once this selection is chosen, ask the user how much money they want to withdraw.
+If they don't have enough money in the account,
+print "Insufficient funds".
+Otherwise, update their account, then print the updated balance.
